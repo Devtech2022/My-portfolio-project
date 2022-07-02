@@ -332,6 +332,11 @@ Sidebar
 .close-btn:hover {
   color: #e66b6b;
 }
+@media screen and (min-width: 768px) {
+  .sidebar {
+    display: none;
+  }
+}
 /*
 =============== 
 Hero
